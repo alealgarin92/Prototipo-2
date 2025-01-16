@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     private float horizontalInput;
     [SerializeField] private float speed;
-    [SerializeField] private float xRange = 10;
+    [SerializeField] private float xRange = 20;
     [SerializeField] private GameObject projectilePrefab;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
